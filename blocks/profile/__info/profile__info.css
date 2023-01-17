@@ -1,0 +1,17 @@
+.profile__info {
+  gap: 10px 14px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-width: 282px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 980px) {
+  .profile__info {
+    flex-direction: row;
+
+
+  }
+}
