@@ -7,9 +7,17 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 720px) {
   .profile {
     max-width: 880px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .profile {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 50px;

@@ -1,8 +1,22 @@
 .places {
-  margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, 282px);
-  gap: 20px;
-  display: grid;
+  margin: 0 auto 30px;
   max-width: 282px;
   box-sizing: border-box;
+
 }
+
+@media screen and (min-width: 720px) {
+  .places {
+    max-width: 600px;
+
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .places {
+    max-width: 880px;
+
+
+  }
+}
+
