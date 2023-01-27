@@ -1,14 +1,13 @@
 .popup__user {
-border: none;
-margin-top: 70px;
-padding: 0;
-border-bottom: 1px solid #000;
-min-height: 27px;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-max-width: 238px;
-
+  border: none;
+  margin-top: 70px;
+  padding: 0;
+  border-bottom: 1px solid #000;
+  min-height: 27px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  max-width: 238px;
 }
 
 @media screen and (min-width: 980px) {
