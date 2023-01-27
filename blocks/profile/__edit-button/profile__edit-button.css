@@ -4,16 +4,16 @@
   height: 18px;
   background-color: black;
   padding: 0;
-  border: none;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 980px) {
   .profile__edit-button {
-   background-image: url(../../../images/edit_button_mini.svg);
-   width: 24px;
-   height: 24px;
-   margin-bottom: -10px;
+    background-size: 10px 10px;
+    width: 24px;
+    height: 24px;
   }
 }
-

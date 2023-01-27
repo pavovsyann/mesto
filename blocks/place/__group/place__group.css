@@ -4,8 +4,7 @@
   background-color: white;
   align-items: center;
   max-width: 246px;
-  margin: 0;
-  margin: 25px 22px;
+  margin: 24px 24px 22px;
   border: none;
-
+  box-sizing: border-box;
 }

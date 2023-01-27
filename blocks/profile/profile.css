@@ -18,8 +18,6 @@
 
 @media screen and (min-width: 980px) {
   .profile {
-    flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 50px;
   }
 }
