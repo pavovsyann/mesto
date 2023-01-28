@@ -13,4 +13,4 @@
 * Добавить реализацию активных элементов
 * Расширить контекстуальную и смысловую части данного проекта
 
-[Проект опубликован на GitHub](https://github.com/pavovsyann/mesto/ "Mesto")
+[Проект опубликован на GitHub](https://pavovsyann.github.io/mesto/ "Mesto")

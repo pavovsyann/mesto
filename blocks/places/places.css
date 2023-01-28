@@ -1,7 +1,11 @@
 .places {
-  margin: 0 auto 30px;
+  margin: 0 auto 52px;
   max-width: 282px;
   box-sizing: border-box;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  gap: 20px 17px;
+  display: grid;
+  padding: 0;
 }
 
 @media screen and (min-width: 720px) {
@@ -13,5 +17,6 @@
 @media screen and (min-width: 980px) {
   .places {
     max-width: 880px;
+    margin: 0 auto 70px;
   }
 }

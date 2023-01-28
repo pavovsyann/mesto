@@ -32,12 +32,9 @@ formElement.addEventListener('submit', handleFormSubmit);
 function openSubmit() {
   nameInput.value = profileName.textContent;
   jobInput.value = profileJob.textContent;
-
-  openPopup()
 }
 
 popupOpenButton.addEventListener('click', openSubmit)
-
 popupOpenButton.addEventListener('click', openPopup);
 popupCloseButton.addEventListener('click', closePopup);
 

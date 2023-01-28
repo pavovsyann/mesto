@@ -4,7 +4,7 @@
   height: 20px;
   background-repeat: no-repeat;
   position: absolute;
-  left: 262px;
+  right: 0;
   top: -36px;
   background-color: transparent;
   border: none;
@@ -15,7 +15,7 @@
     background-image: url(../../../images/close-button-des.svg);
     width: 32px;
     height: 32px;
-    left: 436px;
+    right: -40px;
     top: -40px;
   }
 }
