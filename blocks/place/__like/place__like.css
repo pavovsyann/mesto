@@ -6,9 +6,6 @@
   margin: 0;
   padding: 11px;
   background-repeat: no-repeat;
-}
-
-.place__like {
   transition: opacity 0.3s linear;
 }
 
