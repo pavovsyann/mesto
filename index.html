@@ -29,50 +29,8 @@
         <button class="profile__add-button page__link" type="button" aria-label="Добавить"></button>
       </section>
 
-      <section class="places">
-
-        <article class="place">
-          <img class="place__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Средневековый храм">
-          <div class="place__group">
-            <h2 class="place__text">Карачаевск</h2>
-            <button class="place__like" type="button"></button>
-          </div>
-        </article>
-        <article class="place">
-          <img class="place__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="Вид на Эльбрус">
-          <div class="place__group">
-            <h2 class="place__text">Гора Эльбрус</h2>
-            <button class="place__like" type="button"></button>
-          </div>
-        </article>
-        <article class="place">
-          <img class="place__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="Горный хребет Домбай">
-          <div class="place__group">
-            <h2 class="place__text">Домбай</h2>
-            <button class="place__like" type="button"></button>
-          </div>
-        </article>
-        <article class="place">
-          <img class="place__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Средневековый храм">
-          <div class="place__group">
-            <h2 class="place__text">Гора Эльбрус</h2>
-            <button class="place__like" type="button"></button>
-          </div>
-        </article>
-        <article class="place">
-          <img class="place__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="Вид на Эльбрус">
-          <div class="place__group">
-            <h2 class="place__text">Домбай</h2>
-            <button class="place__like" type="button"></button>
-          </div>
-        </article>
-        <article class="place">
-          <img class="place__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="Горный хребет Домбай">
-          <div class="place__group">
-            <h2 class="place__text">Карачаево-Черкессия</h2>
-            <button class="place__like" type="button"></button>
-          </div>
-        </article>
+      <section class="photo-grid">
+        <ul class="photo-grid__list"></ul>
       </section>
     </main>
 
@@ -80,7 +38,7 @@
       <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
     </footer>
   </div>
-  <div class="popup">
+  <div class="popup popup__edit">
     <div class="popup__container">
       <button class="popup__close-button page__link" type="button"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
@@ -91,6 +49,42 @@
       </form>
     </div>
   </div>
+
+  <div class="popup popup__add">
+    <div class="popup__container">
+      <button class="popup__close-button page__link" type="button"></button>
+      <h2 class="popup__title">Новое место</h2>
+      <form class="popup__form" name="form" >
+        <input class="popup__input popup__input_name" type='text' placeholder="Название" name="">
+        <input class="popup__input popup__input_link" type='text' placeholder="Ссылка на картинку"name="link">
+        <button class="popup__submit" type="submit">Создать</button>
+      </form>
+    </div>
+  </div>
+
+  <div class=" popup popup__zoom">
+    <div class="popup__container">
+      <button class="popup__close-button page__link" type="button"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form" name="form" >
+        <input class="popup__input popup__input_user_name" type='text' placeholder="Введите ваше имя" name="popup__user">
+        <input class="popup__input popup__input_user_des" type='text' placeholder="Род деятельности"name="popup__about">
+        <button class="popup__submit" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
+  <template id="card-template">
+    <li class="card">
+      <button class="card__btn card__btn_action_del" type="button"></button>
+      <img class="card__image">
+      <div class="card__description">
+        <h2 class="card__title"></h2>
+        <button class="card__btn card__btn_action_like" type="button"></button>
+      </div>
+    </li>
+  </template>
+
   <script src="./scripts/index.js"></script>
 </body>
 </html>

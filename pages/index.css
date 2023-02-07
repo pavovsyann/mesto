@@ -18,12 +18,17 @@
 @import url(../blocks/profile/__subtitle/profile__subtitle.css);
 @import url(../blocks/profile/__title/profile__title.css);
 
-@import url(../blocks/places/places.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__group/place__group.css);
-@import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__like/place__like.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__btn/card__btn.css);
+@import url(../blocks/card/__btn/_action/card__btn_action_like.css);
+@import url(../blocks/card/__btn/_action/card__btn_action_del.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__title/card__title.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
