@@ -5,4 +5,5 @@
   overflow: hidden;
   box-sizing: border-box;
   max-width: 282px;
+  position: relative;
 }

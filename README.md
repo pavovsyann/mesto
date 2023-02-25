@@ -8,6 +8,8 @@
 * DOM
 * Debugging JS
 * Popup
+* Delete/like button
+* template
 
 ### Планы на доработку:
 * Добавить реализацию активных элементов

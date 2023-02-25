@@ -1,0 +1,11 @@
+.place__del {
+  background-image: url(../../../images/Trash.svg);
+  position: absolute;
+  padding: 10px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  right: 20px;
+  top: 20px;
+  background-position: center;
+}

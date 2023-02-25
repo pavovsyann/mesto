@@ -1,5 +1,6 @@
-.photo-grid__list {
-  margin: 0 auto 52px;
+.places__list {
+  list-style-type: none;
+  margin: 0 auto;
   max-width: 282px;
   box-sizing: border-box;
   grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
@@ -9,14 +10,13 @@
 }
 
 @media screen and (min-width: 720px) {
-  .photo-grid__list {
+  .places__list {
     max-width: 600px;
   }
 }
 
 @media screen and (min-width: 980px) {
-  .photo-grid__list {
+  .places__list {
     max-width: 880px;
-    margin: 0 auto 70px;
   }
 }
